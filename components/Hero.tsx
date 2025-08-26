@@ -15,7 +15,7 @@ export default function Hero() {
   }
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center bg-white">
+    <section id="hero" className="min-h-screen flex items-center justify-center bg-white pt-16">
       <div className="container text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
