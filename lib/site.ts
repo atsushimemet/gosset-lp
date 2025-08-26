@@ -23,7 +23,7 @@ export const jsonLdOrganization = {
     "streetAddress": "渋谷2丁目19-15 宮益坂ビルディング609",
     "addressLocality": "渋谷区",
     "addressRegion": "東京都",
-    "postalCode": "",
+    "postalCode": "150-0002",
     "addressCountry": "JP"
   },
   "contactPoint": [{
