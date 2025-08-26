@@ -35,10 +35,42 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <button
+                  onClick={() => scrollToSection('hero')}
+                  className="text-gray-300 hover:text-white transition-colors duration-200 text-sm"
+                >
+                  ホーム
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => scrollToSection('services')}
+                  className="text-gray-300 hover:text-white transition-colors duration-200 text-sm"
+                >
+                  事業内容
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => scrollToSection('strengths')}
+                  className="text-gray-300 hover:text-white transition-colors duration-200 text-sm"
+                >
+                  私たちの強み
+                </button>
+              </li>
+              <li>
+                <button
                   onClick={() => scrollToSection('company')}
                   className="text-gray-300 hover:text-white transition-colors duration-200 text-sm"
                 >
                   会社概要
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => scrollToSection('contact')}
+                  className="text-gray-300 hover:text-white transition-colors duration-200 text-sm"
+                >
+                  お問い合わせ
                 </button>
               </li>
               <li>
