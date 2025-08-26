@@ -10,6 +10,11 @@
   body {
     font-family: var(--font-noto-sans-jp), sans-serif;
   }
+
+  /* 固定ヘッダーのオフセットを考慮したスクロール位置調整 */
+  section[id] {
+    scroll-margin-top: 4rem;
+  }
 }
 
 @layer components {

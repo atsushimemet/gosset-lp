@@ -29,10 +29,14 @@ export default function Company() {
                   
                   <div>
                     <dt className="font-medium text-gray-900">所在地</dt>
-                    <dd className="text-gray-600 mt-1 flex items-start">
-                      <MapPin className="w-4 h-4 mr-2 mt-0.5 text-gray-400 flex-shrink-0" />
-                      〒150-0002<br />
-                      {COMPANY.address}
+                    <dd className="text-gray-600 mt-1">
+                      <div className="flex items-start">
+                        <MapPin className="w-4 h-4 mr-2 mt-0.5 text-gray-400 flex-shrink-0" />
+                        <div className="flex flex-col">
+                          <span>〒150-0002</span>
+                          <span>{COMPANY.address}</span>
+                        </div>
+                      </div>
                     </dd>
                   </div>
                   

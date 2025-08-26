@@ -15,7 +15,7 @@ export default function Hero() {
   }
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center bg-white">
+    <section id="hero" className="min-h-screen flex items-center justify-center bg-white pt-16">
       <div className="container text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
@@ -31,7 +31,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button
               onClick={handleLineContact}
-              className="bg-green-500 hover:bg-green-600 text-white font-semibold py-4 px-8 rounded-lg inline-flex items-center transition-colors duration-200 w-full sm:w-auto"
+              className="bg-green-500 hover:bg-green-600 text-white font-semibold py-4 px-8 rounded-lg inline-flex items-center justify-center transition-colors duration-200 w-full sm:w-auto"
             >
               <MessageCircle className="w-5 h-5 mr-2" />
               LINEでお問い合わせ

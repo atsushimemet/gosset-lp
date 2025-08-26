@@ -2,7 +2,7 @@ export const COMPANY = {
   name: "Gosset合同会社",
   address: "東京都渋谷区渋谷2丁目19-15 宮益坂ビルディング609",
   addressKana: "トウキョウト シブヤク シブヤ 2-19-15 ミヤマスザカビルディング 609",
-  email: "info@example.com", // 後日差し替え
+  email: "atsushi-ozawa@gosset-niche-ads.com",
   tel: "",                   // 後日差し替え
   areaServed: "JP",
 };
