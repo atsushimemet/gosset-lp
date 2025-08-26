@@ -29,6 +29,13 @@ export default function Contact() {
               広告運用やプログラミング教育について、LINEで直接ご相談いただけます。<br />
               お気軽にメッセージをお送りください。
             </p>
+            <div className="mb-6">
+              <img 
+                src="https://qr-official.line.me/gs/M_906lvrvs_GW.png?oat_content=qr" 
+                alt="LINE友達追加QRコード"
+                className="mx-auto w-48 h-48 rounded-lg shadow-md"
+              />
+            </div>
             <button
               onClick={handleLineContact}
               className="bg-green-500 hover:bg-green-600 text-white font-semibold py-4 px-8 rounded-lg inline-flex items-center transition-colors duration-200"
