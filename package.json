@@ -10,7 +10,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@hookform/resolvers": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
@@ -18,9 +17,7 @@
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "react-hook-form": "latest",
-    "typescript": "latest",
-    "zod": "latest"
+    "typescript": "latest"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",

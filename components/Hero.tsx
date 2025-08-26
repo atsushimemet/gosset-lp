@@ -1,6 +1,6 @@
 'use client'
 
-import { ChevronDown } from 'lucide-react'
+import { ChevronDown, MessageCircle } from 'lucide-react'
 
 export default function Hero() {
   const scrollToSection = (sectionId: string) => {
@@ -8,6 +8,10 @@ export default function Hero() {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' })
     }
+  }
+
+  const handleLineContact = () => {
+    window.open('https://lin.ee/jlYnS13V', '_blank')
   }
 
   return (
@@ -26,10 +30,11 @@ export default function Hero() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button
-              onClick={() => scrollToSection('contact')}
-              className="btn-primary w-full sm:w-auto"
+              onClick={handleLineContact}
+              className="bg-green-500 hover:bg-green-600 text-white font-semibold py-4 px-8 rounded-lg inline-flex items-center transition-colors duration-200 w-full sm:w-auto"
             >
-              お問い合わせ
+              <MessageCircle className="w-5 h-5 mr-2" />
+              LINEでお問い合わせ
             </button>
             <button
               onClick={() => scrollToSection('company')}
